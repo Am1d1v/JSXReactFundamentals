@@ -5,7 +5,7 @@
 
 const Book = (props) => {
 
-    return props. name ?(
+    return props.name ?(
       <div>
         <h2>{props.name ? props.name : "Default Name"} </h2>
         <p>{props.year}</p>
